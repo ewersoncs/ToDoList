@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+// MARK: - PAREI EM 26:24 Youtube
+
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            // MARK: - HEADER
+            HeaderView()
+            
+            // MARK: - LOGIN FORM
+            
+            
+            // MARK: - CREATE ACCOUNT
+            
+            Spacer()
+        }
     }
 }
 

@@ -13,6 +13,7 @@
 		9003B0DC2C855E5A007ADC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9003B0DB2C855E5A007ADC41 /* GoogleService-Info.plist */; };
 		9003B0E52C856052007ADC41 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003B0E42C856052007ADC41 /* ProfileView.swift */; };
 		9003B0EA2C856080007ADC41 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003B0E92C856080007ADC41 /* NewItemView.swift */; };
+		9036A8AF2C8E3BD00073A11C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036A8AE2C8E3BD00073A11C /* HeaderView.swift */; };
 		903F9AE92C8822BC004AC774 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F9AE82C8822BC004AC774 /* MainView.swift */; };
 		903F9AEB2C88231F004AC774 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F9AEA2C88231F004AC774 /* LoginView.swift */; };
 		903F9AF32C882367004AC774 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F9AF22C882367004AC774 /* RegisterView.swift */; };
@@ -36,6 +37,7 @@
 		9003B0DB2C855E5A007ADC41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9003B0E42C856052007ADC41 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9003B0E92C856080007ADC41 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		9036A8AE2C8E3BD00073A11C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		903F9AE82C8822BC004AC774 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		903F9AEA2C88231F004AC774 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		903F9AF22C882367004AC774 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				909CC3702C8523030073B762 /* ToDoListApp.swift */,
+				9036A8AD2C8E3BBF0073A11C /* View */,
 				9003B0DA2C855E0D007ADC41 /* Model */,
 			);
 			path = Common;
@@ -206,6 +209,14 @@
 			isa = PBXGroup;
 			children = (
 				9003B0E92C856080007ADC41 /* NewItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9036A8AD2C8E3BBF0073A11C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9036A8AE2C8E3BD00073A11C /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -457,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903F9AF32C882367004AC774 /* RegisterView.swift in Sources */,
+				9036A8AF2C8E3BD00073A11C /* HeaderView.swift in Sources */,
 				9003B0EA2C856080007ADC41 /* NewItemView.swift in Sources */,
 				903F9AE92C8822BC004AC774 /* MainView.swift in Sources */,
 				90AFB8752C89503E00FCC33D /* RegisterViewModel.swift in Sources */,
