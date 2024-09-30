@@ -16,7 +16,7 @@ struct ToDoListApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ToDoListView()
+            LoginView()
         }
     }
 }

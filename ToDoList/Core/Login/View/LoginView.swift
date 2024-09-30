@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-// MARK: - PAREI EM 33:47 Youtube
-
 struct LoginView: View {
     
     // MARK: - PROPERTIES
@@ -19,29 +17,22 @@ struct LoginView: View {
         NavigationStack{
             VStack{
                 // MARK: - HEADER
-                HeaderView()
+                HeaderView(title: "Lista de Tarefas", subtitle: "Não Esquecer", angle: 15, backgroundColor: .pink)
                 
                 // MARK: - LOGIN FORM
                 Form{
                     TextField("Endereço de Email", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
                     
                     SecureField("Senha de Acesso", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button {
-                        // TODO
-                    } label: {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                            
-                            Text("Acessar")
-                                .foregroundColor(.white)
-                                .bold()
-                        }
-                    }
+                    CustomButtonView(title: "Acessar", backgroundColor: .blue, action: {
+                        // Action
+                    })
                 }
+                .offset(y: -50)
                 
                 // MARK: - CREATE ACCOUNT
                 VStack {
